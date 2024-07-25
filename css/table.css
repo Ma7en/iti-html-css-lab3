@@ -1,0 +1,78 @@
+* {
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+    border: none;
+}
+
+ul {
+    list-style: none;
+}
+
+.bonus {
+    margin: 30px;
+    /* border: 2px solid #000; */
+}
+
+.bonus table {
+    width: 100%;
+    border: 1px solid #000;
+}
+
+.bonus td {
+    padding: 20px;
+    text-align: center;
+    border: 2px solid #000;
+}
+
+.bonus thead {
+    background-color: #4f81bd;
+    color: #fff;
+}
+
+.bonus thead tr td {
+    padding: 20px;
+    border: 1px solid #000;
+}
+
+.bonus thead tr td a {
+    width: 20%;
+    display: inline-block;
+    text-decoration: none;
+    color: #fff;
+    text-transform: capitalize;
+}
+
+.bonus tbody tr.team {
+    background-color: #f2f2f2;
+}
+
+.bonus tbody tr.team a {
+    color: gray;
+}
+
+.bonus tbody tr.team-a {
+    background-color: #b8cce4;
+}
+
+.bonus tbody tr.team-b {
+    background-color: #dbe5f1;
+}
+
+.bonus tbody tr.team-a td:first-child,
+.bonus tbody tr.team-a td:last-child,
+.bonus tbody tr.team-b td:first-child,
+.bonus tbody tr.team-b td:last-child {
+    background-color: #f2f2f2;
+}
+
+.bonus tbody tr.team-a td:first-child a,
+.bonus tbody tr.team-a td:last-child a,
+.bonus tbody tr.team-b td:first-child a,
+.bonus tbody tr.team-b td:last-child a {
+    color: gray;
+    text-align: justify;
+}
+
+/* #b8cce4 */
+/* #dbe5f1 */

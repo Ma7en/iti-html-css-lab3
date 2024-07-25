@@ -1,0 +1,43 @@
+/* 1. Select all <p> elements and make them red */
+p {
+    color: red;
+}
+
+/* 2. Select all <p> and <div> elements */
+p,
+div {
+    margin-bottom: 10px;
+}
+
+/* 3. Select <p> elements with class mainClass that are direct children of a <div> with id myDiv */
+#myDiv > p.mainClass {
+    font-weight: bold;
+    color: blue;
+}
+
+/* 4. Select all <p> elements inside any <div> and style them */
+div p {
+    font-size: 14px;
+    line-height: 1.5;
+}
+
+/* 5. Select <input> elements with type text and class myClass */
+input[type="text"].myClass {
+    border: 2px solid green;
+}
+
+/* 6. Select <span> elements that are immediately after a <div> */
+div + span {
+    background-color: yellow;
+}
+
+/* 7. Select <p> elements with class myClass */
+p.myClass {
+    text-decoration: underline;
+}
+
+/* 8. Select <div> elements with id myDiv */
+div#myDiv {
+    padding: 20px;
+    border: 1px solid black;
+}

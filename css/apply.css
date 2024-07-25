@@ -1,0 +1,96 @@
+/* 
+color
+header: #ff0000
+linksbar: #808080
+content: #ffc0cb
+*/
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Lucida Calligraphy";
+}
+
+body {
+    padding: 30px;
+}
+
+#header {
+    padding: 10px;
+    text-align: center;
+}
+
+#linksbar {
+    padding: 20px;
+}
+
+/* loginform */
+#linksbar #loginform {
+    padding: 20px;
+    border: 2px dashed rgb(20, 70, 60);
+}
+
+#linksbar #loginform input {
+    width: 100%;
+    max-width: 100%;
+}
+
+#linksbar #loginform input[type="text"] {
+    background-color: yellow;
+}
+
+#linksbar #loginform input[type="text"]:focus {
+    background-color: white;
+}
+
+/* ul */
+#linksbar ul {
+    padding-left: 30px;
+}
+
+#linksbar ul li {
+    width: fit-content;
+    margin: 10px 0px;
+}
+
+#linksbar ul li a {
+    background-color: #ffc0cb;
+    color: red;
+    text-decoration: none;
+}
+
+#linksbar ul li a:hover {
+    color: pink;
+    background-color: red;
+}
+
+/* content */
+#content {
+    background-color: #ffc0cb;
+    float: left;
+    width: 75%;
+    padding: 40px;
+}
+
+#content #aboutus {
+    margin: 20px 0px;
+    color: red !important;
+    font-size: 12px;
+    font-weight: bold;
+}
+
+#content #aboutus::after {
+    content: " Read this";
+    color: yellow;
+}
+
+#content #titles {
+    display: inline-block;
+    border: 3px solid #000;
+}
+
+#content #titles p {
+    display: inline-block;
+    border: 3px solid #000;
+}
